@@ -41,8 +41,9 @@ notasAlunos_DataFrame["Faltas"] = fault
 
 print(notasAlunos_DataFrame)
 
-# # Alterando um dado específico de uma coluna
+# # Alterando um dado específico de uma coluna. Aqui acesso o Pedro em nota 1 e substitui por 10.
 notasAlunos_DataFrame.loc[1,"Nota 2"] = 10
 
 notasAlunos_DataFrame["Media"] = ((notasAlunos_DataFrame["Nota 1"]+notasAlunos_DataFrame["Nota 2"]+notasAlunos_DataFrame["Nota 3"]+notasAlunos_DataFrame["Nota 4"])/4)
+
 print(notasAlunos_DataFrame)
